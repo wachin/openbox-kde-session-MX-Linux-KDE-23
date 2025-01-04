@@ -12,7 +12,7 @@ https://sourceforge.net/projects/mx-linux/files/Final/KDE/
 and install:
 
 ```
-sudo apt install openbox-kde-session git numlock obkey numlockx
+sudo apt install openbox-kde-session git numlock obkey numlockx lxpanel lxrandr
 ```
 
 

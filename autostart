@@ -28,7 +28,9 @@ konsole &
 
 # Otros programas (en este caso, algunos comentados)
 # /usr/bin/google-chrome-stable &
-# firefox &
+firefox &
 numlockx &
 ksnip &
+xfce4-notes &
+
 

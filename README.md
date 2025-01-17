@@ -51,7 +51,7 @@ Guarda los cambios al terminar y ciérralo.
 
 ---
 
-### **3.2. Configurar un fondo de pantalla con Nitrogen**
+## **4. Configurar un fondo de pantalla con Nitrogen**
 
 1. Abre **Nitrogen** desde el menú de aplicaciones.
 2. Haz clic en **Preferences** y luego en **+ Add**.
@@ -61,11 +61,12 @@ Guarda los cambios al terminar y ciérralo.
    ```
 4. Selecciona la carpeta y haz clic en **Seleccionar** y luego en **OK**.
 5. Elige un fondo de pantalla de la lista que aparece.
-6. Haz clic en **Apply** para aplicarlo y luego cierra Nitrogen.
+6. Da clic a la izquierda en "Automatic" y selecciona "Scaled" para que la imagen ocupe toda la pantalla. 
+7. Haz clic en **Apply** para aplicarlo y luego cierra Nitrogen.
 
 ---
 
-## **4. Recursos adicionales**
+## **5. Recursos adicionales**
 
 Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes recursos:
 
@@ -77,7 +78,7 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 
 ---
 
-## **5. Consideraciones finales**
+## **6. Consideraciones finales**
 
 - Si necesitas configurar tint2 (el panel), sigue los pasos del:
 

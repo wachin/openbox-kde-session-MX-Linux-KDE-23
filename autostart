@@ -17,9 +17,7 @@
 #xfce-mcs-manager &
 
 # Iniciar polkit (autenticación KDE)
-if test -x /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1; then
-    /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
-fi
+/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)
 kate &
@@ -32,5 +30,8 @@ firefox &
 numlockx &
 ksnip &
 xfce4-notes &
+tint2 &
+picom &
+xfce4-notifyd &
 
 

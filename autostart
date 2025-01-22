@@ -33,5 +33,6 @@ xfce4-notes &
 tint2 &
 picom &
 xfce4-notifyd &
-
+~./home/wachin/Dev/xsct_gui/Launcher.sh &
+python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
 

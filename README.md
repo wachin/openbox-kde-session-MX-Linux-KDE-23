@@ -19,8 +19,8 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
    ```bash
-   sudo apt install openbox-kde-session git numlock obkey \
-       numlockx lxpanel lxrandr nitrogen volumeicon-alsa
+   sudo apt install git numlock obkey \
+       numlockx lxrandr nitrogen volumeicon-alsa
    ```
 
 2. Descarga y configura los archivos de Openbox ejecutando:

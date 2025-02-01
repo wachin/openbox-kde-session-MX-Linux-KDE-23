@@ -19,7 +19,7 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
    ```bash
-   sudo apt install git numlock obkey \
+   sudo apt install git numlock obkey tint2 picom xfce4-notifyd \
        numlockx lxrandr nitrogen volumeicon-alsa
    ```
 

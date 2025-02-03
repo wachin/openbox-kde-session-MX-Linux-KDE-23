@@ -16,7 +16,8 @@
 #
 #xfce-mcs-manager &
 
-# Iniciar polkit (autenticación KDE)
+# Iniciar polkit (autenticación KDE) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
+# 64 bit:
 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
 # Habilitar notificaciones de xfce4-notifyd (encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop)
@@ -29,16 +30,31 @@ konsole &
 
 # Otros programas (en este caso, algunos comentados)
 
+# Navegadores Web:
 # /usr/bin/google-chrome-stable &
 firefox &
+
+# Activador de las teclas numeral de los teclados:
 numlockx &
+
+# Captura de pantalla:
 ksnip &
-xfce4-notes &
+
+# Panel para las aplicaciones:
 tint2 &
+
+# Compositor
 picom &
+
+# Icono del volumen (con clic derecho se abre pavucontrol):
 volumeicon &
 
+# Gestor de los Wallpapaer
 nitrogen --restore &
 
+# Un programa personal:
 python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
+
+# Si tienes un teclado Logitech Pebble Keys necesitarás este programa
+solaar --window=hide
 

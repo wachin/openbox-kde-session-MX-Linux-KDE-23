@@ -33,9 +33,9 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
    - `numlockx`: Activa el bloqueo numérico en el inicio de sesión.
    - `lxrandr`: Herramienta para gestionar la resolución de pantalla y configuraciones de monitores.
    - `nitrogen`: Aplicación ligera para establecer fondos de pantalla.
-   - `volumeicon-alsa`: Indicador de volumen de sonido basado en ALSA.
+   - `volumeicon-alsa`: Indicador de volumen de sonido basado en ALSA, con clic derecho se abrirá pavucontrol el cual debe estar instalado por defecto y en caso que no instalarlo.
    - `obconf`: Herramienta para configurar Openbox mediante una interfaz gráfica.
-   - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox.
+   - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox, debe añadirla al panel tint2, abajo dejo un enlace a un tutorial.
 
 2. Descarga y configura los archivos de Openbox ejecutando:
    ```bash

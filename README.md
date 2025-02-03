@@ -27,7 +27,7 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
    - `obkey`: Herramienta gráfica para configurar atajos de teclado en Openbox.
    - `tint2`: Un panel ligero y personalizable para Openbox.
    - `picom`: Compositor de ventanas que agrega efectos visuales como transparencias y sombras.
-   - `xfce4-notifyd`: Servicio de notificaciones de escritorio basado en XFCE, compatible con Openbox.
+   - `xfce4-notifyd`: Servicio de notificaciones de escritorio basado en XFCE, compatible con Openbox, este es absolutamente necesario ejemplo para emparejar el [teclado Logitech Pebble Keys 2 K380s](https://facilitarelsoftwarelibre.blogspot.com/2025/01/como-emparejar-el-teclado-logitech-pebble-keys-2-k380s-en-mx-linux-23-kde.html).
    - `obmenu2`: Editor de menús para Openbox que permite personalizar la estructura del menú.
    - `gnome-icon-theme`: Paquete de íconos para mejorar la apariencia visual del entorno.
    - `numlockx`: Activa el bloqueo numérico en el inicio de sesión.

@@ -20,7 +20,10 @@
 # 64 bit:
 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
-# Habilitar notificaciones de xfce4-notifyd (encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop)
+# Habilitar notificaciones de xfce4-notifyd
+# Comando encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop
+# en MX Linux 23 KDE el cual es de 64 bit. Si desee usar esto en un Linux de 32 bit deber ver en el 
+# archvio: xfce4-notifyd.desktop la línea y copiarla y usarla
 sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
 
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)

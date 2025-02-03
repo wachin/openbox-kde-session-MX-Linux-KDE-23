@@ -65,7 +65,23 @@ Guarda los cambios al terminar y ciérralo.
 
 ---
 
-## **4. Configurar un fondo de pantalla con Nitrogen**
+## **4. Configuración de programas al inicio**
+
+El archivo `~/.config/openbox/autostart` controla los programas que se ejecutan al iniciar Openbox. A continuación se explica la función de cada uno:
+
+- `nitrogen --restore &` → Restaura el fondo de pantalla previamente configurado con Nitrogen.
+- `picom --experimental-backends &` → Activa el compositor de ventanas para mejorar los efectos visuales como transparencia y sombras.
+- `tint2 &` → Inicia el panel tint2, que proporciona una barra de tareas y un área de notificaciones.
+- `volumeicon &` → Inicia el icono de volumen para controlar el audio del sistema.
+- `numlockx on &` → Activa el bloqueo numérico al iniciar sesión.
+- `xfce4-notifyd &` → Habilita las notificaciones del sistema.
+- `lxrandr --auto &` → Configura automáticamente la resolución de pantalla.
+
+Si deseas modificar los programas que se inician con Openbox, edita el archivo `autostart` y agrega o elimina procesos según tus necesidades.
+
+---
+
+## **5. Configurar un fondo de pantalla con Nitrogen**
 
 1. Abre **Nitrogen** desde el menú de aplicaciones.
 2. Haz clic en **Preferences** y luego en **+ Add**.
@@ -80,7 +96,7 @@ Guarda los cambios al terminar y ciérralo.
 
 ---
 
-## **5. Recursos adicionales**
+## **6. Recursos adicionales**
 
 Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes recursos:
 
@@ -92,7 +108,7 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 
 ---
 
-## **6. Consideraciones finales**
+## **7. Consideraciones finales**
 
 - Si necesitas configurar tint2 (el panel), sigue los pasos del:
 

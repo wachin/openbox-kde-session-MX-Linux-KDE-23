@@ -19,12 +19,16 @@
 # Iniciar polkit (autenticación KDE)
 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
+# Habilitar notificaciones de xfce4-notifyd (encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop)
+sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
+
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)
 kate &
 dolphin &
 konsole &
 
 # Otros programas (en este caso, algunos comentados)
+
 # /usr/bin/google-chrome-stable &
 firefox &
 numlockx &

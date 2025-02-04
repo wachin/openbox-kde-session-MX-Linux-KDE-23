@@ -16,6 +16,9 @@
 #
 #xfce-mcs-manager &
 
+# Internet
+nm-applet &
+
 # Iniciar polkit (autenticación KDE) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
 # 64 bit:
 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
@@ -60,4 +63,6 @@ python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
 
 # Si tienes un teclado Logitech Pebble Keys necesitarás este programa
 solaar --window=hide
+
+
 

@@ -20,7 +20,7 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
    ```bash
    sudo apt install git obkey tint2 picom xfce4-notifyd obmenu2 gnome-icon-theme \
-       numlockx lxrandr nitrogen volumeicon-alsa obconf lxsession-logout
+       numlockx lxrandr nitrogen volumeicon-alsa obconf lxsession-logout cbatticon
    ```
 
    - `git`: Permite clonar y gestionar repositorios de código fuente.
@@ -36,6 +36,8 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
    - `volumeicon-alsa`: Indicador de volumen de sonido basado en ALSA, con clic derecho se abrirá pavucontrol el cual debe estar instalado por defecto y en caso que no instalarlo.
    - `obconf`: Herramienta para configurar Openbox mediante una interfaz gráfica.
    - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox, debe añadirla al panel tint2, abajo dejo un enlace a un tutorial.
+   - `cbatticon`: Icono de estado de batería ligero y rápido, y más
+
 
 2. Descarga y configura los archivos de Openbox ejecutando:
    ```bash

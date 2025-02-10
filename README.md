@@ -40,13 +40,18 @@ sudo apt install git obkey tint2 picom xfce4-notifyd obmenu2 \
    - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox, debe añadirla al panel tint2, abajo dejo un enlace a un tutorial.
    - `cbatticon`: Icono de estado de batería ligero y rápido, y más
 
-
 2. Descarga y configura los archivos de Openbox ejecutando:
-   ```bash
-   git clone https://github.com/wachin/openbox-kde-session-MX-Linux-KDE-23/ ~/.config/openbox
-   ```
+```bash
+git clone https://github.com/wachin/openbox-kde-session-MX-Linux-KDE-23/ ~/.config/openbox
+```
 
-3. Cierra la sesión o reinicia tu computadora.
+3. Instalar mi configuración personalizada de tint2 (OPCIONAL)
+Si deseas usar el panel tint2 como yo lo tengo configurado sólo haz esto:
+```bash
+git clone https://github.com/wachin/tint2 ~/.config/tint2
+```
+
+Cierra la sesión o reinicia tu computadora.
 
 4. En la pantalla de inicio de sesión, selecciona **Openbox** como tu entorno de escritorio y accede con tu usuario.
 
@@ -114,7 +119,7 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 
 ## **7. Consideraciones finales**
 
-- Si necesitas configurar tint2 (el panel), sigue los pasos del:
+- Si necesitas configurar tint2 (el panel) desde cero, sigue los pasos del:
 
 **Cómo instalar y configurar tint2 con Openbox en MX Linux 23 KDE**  
 [https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/tint2/C%C3%B3mo%20instalar%20el%20panel%20tint2%20para%20usarlo%20con%20openbox/Instalar%20tint2%20para%20openbox.md](https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/tint2/C%C3%B3mo%20instalar%20el%20panel%20tint2%20para%20usarlo%20con%20openbox/Instalar%20tint2%20para%20openbox.md).

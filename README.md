@@ -18,10 +18,11 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 ## **2. Instalar Openbox y herramientas necesarias**
 
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
-   ```bash
-   sudo apt install git obkey tint2 picom xfce4-notifyd obmenu2 gnome-icon-theme \
-       numlockx lxrandr nitrogen volumeicon-alsa obconf lxsession-logout cbatticon
-   ```
+```bash
+sudo apt install git obkey tint2 picom xfce4-notifyd obmenu2 \
+    lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
+    numlockx nitrogen  obconf lxsession-logout cbatticon
+```
 
    - `git`: Permite clonar y gestionar repositorios de código fuente.
    - `obkey`: Herramienta gráfica para configurar atajos de teclado en Openbox.
@@ -29,6 +30,7 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
    - `picom`: Compositor de ventanas que agrega efectos visuales como transparencias y sombras.
    - `xfce4-notifyd`: Servicio de notificaciones de escritorio basado en XFCE, compatible con Openbox, este es absolutamente necesario ejemplo para emparejar el [teclado Logitech Pebble Keys 2 K380s](https://facilitarelsoftwarelibre.blogspot.com/2025/01/como-emparejar-el-teclado-logitech-pebble-keys-2-k380s-en-mx-linux-23-kde.html).
    - `obmenu2`: Editor de menús para Openbox que permite personalizar la estructura del menú.
+   - `lxappearance`: Para el menú de openbox, dar clic en "Apariencia"
    - `gnome-icon-theme`: Paquete de íconos para mejorar la apariencia visual del entorno.
    - `numlockx`: Activa el bloqueo numérico en el inicio de sesión.
    - `lxrandr`: Herramienta para gestionar la resolución de pantalla y configuraciones de monitores.

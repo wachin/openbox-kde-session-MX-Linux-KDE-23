@@ -25,6 +25,11 @@
         <execute>obconf</execute>
       </action>
     </item>
+    <item label="Apariencia">
+      <action name="Execute">
+        <execute>lxappearance</execute>
+      </action>
+    </item>
     <item label="Reconfigure">
       <action name="Reconfigure" />
     </item>

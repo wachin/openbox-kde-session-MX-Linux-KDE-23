@@ -66,11 +66,13 @@ nitrogen --restore &
 python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
 
 # Si tienes un teclado Logitech Pebble Keys necesitarás este programa
-solaar --window=hide &
+#solaar --window=hide
 
 # Icono de estado de batería ligero y rápido, y más
 cbatticon &
 
+
+xfce4-notes &
 
 
 

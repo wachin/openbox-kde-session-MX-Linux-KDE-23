@@ -27,12 +27,6 @@ nm-applet &
 # Iniciar agente de autenticación para PolicyKit Gnome, lo usa MX Linux 21, 23
 #/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
-# Habilitar notificaciones de xfce4-notifyd
-# Comando encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop
-# en MX Linux 23 KDE el cual es de 64 bit. Si desee usar esto en un Linux de 32 bit deber ver en el 
-# archvio: xfce4-notifyd.desktop la línea y copiarla y usarla
-sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
-
 # Iniciar programas como aplicaciones KDE (kate, dolphin, konsole)
 kate &
 dolphin &
@@ -56,8 +50,17 @@ tint2 &
 # Compositor
 picom &
 
+# Si tienes un teclado Logitech Pebble Keys necesitarás este programa
+#solaar --window=hide
+
 # Icono del volumen (con clic derecho se abre pavucontrol):
 volumeicon &
+
+# Habilitar notificaciones del paquete xfce4-notifyd
+# Comando encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop
+# en MX Linux 23 KDE el cual es de 64 bit. Si desee usar esto en un Linux de 32 bit deber ver en el 
+# archvio: xfce4-notifyd.desktop la línea y copiarla y usarla
+sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
 
 # Gestor de los Wallpapaer
 nitrogen --restore &
@@ -65,13 +68,10 @@ nitrogen --restore &
 # Un programa personal:
 python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
 
-# Si tienes un teclado Logitech Pebble Keys necesitarás este programa
-#solaar --window=hide
-
 # Icono de estado de batería ligero y rápido, y más
 cbatticon &
 
-
+# Notas
 xfce4-notes &
 
 

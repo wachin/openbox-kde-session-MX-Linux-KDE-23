@@ -74,5 +74,10 @@ cbatticon &
 # Notas
 xfce4-notes &
 
+# Para asegurarme de que el idioma del teclado esté en "Español España"
+# Pues todos mis teclados son "Español España" aunque yo vivo en Ecuador
+# Si usted necesitara saber qué teclado se está usando ponga: setxkbmap -query
+setxkbmap -layout es &
+
 
 

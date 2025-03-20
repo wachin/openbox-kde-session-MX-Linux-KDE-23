@@ -16,9 +16,9 @@
 #
 #xfce-mcs-manager &
 
-# Name[es]=Sistema de Sonido PulseAudio
-# Comment[es]=Iniciar el Sistema de Sonido PulseAudio
-start-pulseaudio-x11 &
+# Sistema de Sonido PulseAudio
+# Iniciar el Sistema de Sonido PulseAudio
+pulseaudio --start &
 
 # Internet
 nm-applet &

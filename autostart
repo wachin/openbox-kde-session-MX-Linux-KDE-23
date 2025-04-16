@@ -60,12 +60,6 @@ picom &
 # Icono del volumen (con clic derecho se abre pavucontrol):
 volumeicon &
 
-# Habilitar notificaciones del paquete xfce4-notifyd
-# Comando encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop
-# en MX Linux 23 KDE el cual es de 64 bit. Si desee usar esto en un Linux de 32 bit deber ver en el 
-# archvio: xfce4-notifyd.desktop la línea y copiarla y usarla
-sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
-
 # Gestor de los Wallpapaer
 nitrogen --restore &
 
@@ -83,5 +77,10 @@ xfce4-notes &
 # Si usted necesitara saber qué teclado se está usando ponga: setxkbmap -query
 setxkbmap -layout es &
 
-
+# Habilitar notificaciones del paquete xfce4-notifyd (ponerlo al final del archivo porque sino usas Systemd no funciona
+# y no te dejará funcionar los demás programas después de este porque no usa &)
+# Comando encontrado en synapic en /etc/xdg/autostart/xfce4-notifyd.desktop
+# en MX Linux 23 KDE el cual es de 64 bit. Si desee usar esto en un Linux de 32 bit deber ver en el 
+# archvio: xfce4-notifyd.desktop la línea y copiarla y usarla
+sh -c "systemctl --user start xfce4-notifyd.service 2>/dev/null || exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd"
 

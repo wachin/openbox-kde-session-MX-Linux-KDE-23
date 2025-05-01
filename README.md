@@ -22,7 +22,7 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
     numlockx nitrogen obconf lxsession-logout \
-    xfce4-notes qt5ct
+    xfce4-notes qt5ct papirus-icon-theme
 ```
 Si usas MX Linux también puedes instalar los siguientes paquetes que están en sus repositorios:
 
@@ -32,13 +32,19 @@ sudo apt install obkey obmenu2
 
 si usas Debian o alguna de sus distribuciones y no tenga el repositorio de MX Linux lo puedes instalar siguiendo [estos pasos](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html) para poder instalar esos paquetes.
 
+Paquete opcional
+
+```bash
+sudo apt install picom
+```
+
 # Para que sirve cada paquete?
 
    - `obkey`: Herramienta gráfica para configurar atajos de teclado en Openbox.
    - `obmenu2`: Editor de menús para Openbox que permite personalizar la estructura del menú (puedes añadir tus propios menús de tus programas).
+   - `picom`: Compositor de ventanas que agrega efectos visuales como transparencias y sombras.
    - `git`: Permite clonar y gestionar repositorios de código fuente.
    - `tint2`: Un panel ligero y personalizable para Openbox.
-   - `picom`: Compositor de ventanas que agrega efectos visuales como transparencias y sombras.
    - `xfce4-notifyd`: Servicio de notificaciones de escritorio basado en XFCE, compatible con Openbox, este es absolutamente necesario ejemplo para emparejar el [teclado Logitech Pebble Keys 2 K380s](https://facilitarelsoftwarelibre.blogspot.com/2025/01/como-emparejar-el-teclado-logitech-pebble-keys-2-k380s-en-mx-linux-23-kde.html).
    - `lxappearance`: Para el menú de openbox, dar clic en "Apariencia"
    - `gnome-icon-theme`: Paquete de íconos para mejorar la apariencia visual del entorno.

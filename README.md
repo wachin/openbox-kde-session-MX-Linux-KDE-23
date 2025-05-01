@@ -30,7 +30,7 @@ Si usas MX Linux también puedes instalar los siguientes paquetes que están en 
 sudo apt install obkey obmenu2
 ```
 
-si usas Debian y alguna de sus distribuciones y no tenga el repositorio de MX Linux lo puedes instalar siguiendo [estos pasos](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html).
+si usas Debian o alguna de sus distribuciones y no tenga el repositorio de MX Linux lo puedes instalar siguiendo [estos pasos](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html) para poder instalar esos paquetes.
 
 # Para que sirve cada paquete?
 

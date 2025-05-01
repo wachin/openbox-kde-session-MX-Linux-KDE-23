@@ -60,7 +60,7 @@ Si deseas usar el panel tint2 como yo lo tengo configurado sólo haz esto:
 git clone https://github.com/wachin/tint2 ~/.config/tint2
 ```
 
-Cierra la sesión o reinicia tu computadora.
+Cierra la **sesión** o **reinicia** tu computadora.
 
 4. En la pantalla de inicio de sesión, selecciona **Openbox** como tu entorno de escritorio y accede con tu usuario.
 
@@ -134,6 +134,9 @@ Para más configuraciones avanzadas de Openbox, puedes consultar los siguientes 
 [https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/tint2/C%C3%B3mo%20instalar%20el%20panel%20tint2%20para%20usarlo%20con%20openbox/Instalar%20tint2%20para%20openbox.md](https://github.com/wachin/Facilitar-el-Software-Libre/blob/main/Tutoriales/tint2/C%C3%B3mo%20instalar%20el%20panel%20tint2%20para%20usarlo%20con%20openbox/Instalar%20tint2%20para%20openbox.md).
 
 - Explora las configuraciones de Openbox para personalizar completamente tu entorno de escritorio.
+
+## 8. Usa un tema de iconos como papirus-icon-theme
+Este tema de iconos funciona bien con openbox, debería estar instalado en tu Linux por defecto
 
 ---
 

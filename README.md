@@ -34,7 +34,7 @@ si usas Debian y alguna de sus distribuciones y no tenga el repositorio de MX Li
 # Para que sirve cada paquete?
 
    - `obkey`: Herramienta gráfica para configurar atajos de teclado en Openbox.
-   - `obmenu2`: Editor de menús para Openbox que permite personalizar la estructura del menú.
+   - `obmenu2`: Editor de menús para Openbox que permite personalizar la estructura del menú (puedes añadir tus propios menús de tus programas).
    - `git`: Permite clonar y gestionar repositorios de código fuente.
    - `tint2`: Un panel ligero y personalizable para Openbox.
    - `picom`: Compositor de ventanas que agrega efectos visuales como transparencias y sombras.

@@ -21,7 +21,8 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 ```bash
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
-    numlockx nitrogen obconf lxsession-logout
+    numlockx nitrogen obconf lxsession-logout \
+    xfce4-notes qt5ct
 ```
 Si usas MX Linux también puedes instalar los siguientes paquetes que están en sus repositorios:
 

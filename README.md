@@ -19,10 +19,19 @@ Instálalo en tu sistema siguiendo las instrucciones estándar de instalación d
 
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias:
 ```bash
-sudo apt install git obkey tint2 picom xfce4-notifyd obmenu2 \
+sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
-    numlockx nitrogen  obconf lxsession-logout cbatticon
+    numlockx nitrogen obconf lxsession-logout
 ```
+Si usas MX Linux también puedes instalar los siguientes paquetes que están en sus repositorios:
+
+```bash
+obkey obmenu2
+```
+
+si usas Debian y alguna de sus distribuciones y no tenga el repositorio de MX Linux lo puedes instalar siguiendo [estos pasos](https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html).
+
+# Para que sirve cada paquete?
 
    - `git`: Permite clonar y gestionar repositorios de código fuente.
    - `obkey`: Herramienta gráfica para configurar atajos de teclado en Openbox.
